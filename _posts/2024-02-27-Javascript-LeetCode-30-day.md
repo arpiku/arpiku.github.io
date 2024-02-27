@@ -1,5 +1,5 @@
 ---
-title: For the love of Engineering 
+title: JavaScript 30 problems with solutions 
 author: arpiku 
 date: 2024-02-27 15:45:00 +0530
 categories: [Journal, Blog, Engineering, Opinion]
