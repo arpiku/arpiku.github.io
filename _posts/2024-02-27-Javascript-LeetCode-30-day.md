@@ -1,5 +1,5 @@
 ---
-title: For the love of Engineering 
+title: JavaScript 30 problems with solutions 
 author: arpiku 
 date: 2024-02-27 15:45:00 +0530
 categories: [Journal, Blog, Engineering, Opinion]
@@ -105,7 +105,7 @@ var expect = function(val) {
 };
 
 ```
-{% end %}
+{% endraw %}
 
 - The **function returns an object of functions!**, think about that.
 - What is going on is that imagine the wrapping funtion to be object, one its on we have the "val", other values will be passed later on, what it is 
@@ -141,7 +141,7 @@ var createCounter = function(init) {
  * counter.decrement(); // 4
  */
 ```
-{% end %}
+{% endraw %}
 
 
 ## Appy Transform Over Each Element in Array
@@ -161,7 +161,7 @@ var map = function(arr, fn) {
   return result;
 };
 ```
-{% end %}
+{% endraw %}
 
 ## Filter Elements From Array
 - In this problem we just simply evaluate and check if the element should be pushed into the return array, if the answer is yes, we push if not 
