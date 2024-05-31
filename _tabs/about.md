@@ -6,9 +6,9 @@ order: 4
 
 ---
 
-![](/home/arpiku/Work/website/arpiku.github.io/_tabs/assets/Me.jpg)
+![](./assets/Me.jpg)
 
-Here is the resume!
+Here is the [resume](./assets/resume.pdf)!
 
 Born in the vibrant and beautiful land of India, I always found the magic of a remote control car just as mysterious as the one in Harry Potter, growing up I have realised that the Harry Potter world was always considerably behind us. 
 
