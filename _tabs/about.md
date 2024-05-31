@@ -6,7 +6,7 @@ order: 4
 
 ---
 
-![]({{ site.baseurl }}/_tabs/assets/Me.jpg)
+![MyImg](/assets/img/Me.jpg)
 
 Here is the [resume]({{ site.baseurl }}/_tabs/assets/resume.pdf)!
 
