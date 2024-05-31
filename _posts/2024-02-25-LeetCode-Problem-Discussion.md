@@ -8,7 +8,7 @@ pin: false
 math: true
 ---
 
-### Two Sum 
+## Two Sum 
 - The problem is rather simple when going with a naive solution, using a O($n^2$)  solution by lopping through all the unique
 pairs possibe combinations (not considering the order) and returning the one that is meets our requirement.
 - Time Complexity O($n^2$), Space Complexity - O($1$)
@@ -977,7 +977,7 @@ the connection to next node.
 - Finally you return the new head.
 
 
-### Majority Element
+## Majority Element
 
 {% raw %}
 ```cpp
@@ -1011,6 +1011,7 @@ public:
     }
 };
 ```
+{% endraw %}
 - Also you cannot pass  const iterators (.cbegin(), .cend()) into std::sort.
 - Another way of dealing with this problem is by using a hashMap as following.
 
@@ -1066,7 +1067,7 @@ numbers.
 int("b" - "a")
 - Try out in python as (ord('b') - ord('a')), see what you get.
 
-### Diameter of a binary tree.
+## Diameter of a binary tree.
 - We can use simple dfs to solve this problem
 {% raw %}
 ```cpp
@@ -1093,7 +1094,7 @@ public:
 };
 ```
 {% endraw %}
-### Middle of the linked list
+## Middle of the linked list
 
 - This question builds upon the solutions discussed, as you can see we are traversing the LL using two pointers.
 - As we hit the end, as the faster node is traveling at twice the speed of the slower one, the slower one must be 
@@ -1121,7 +1122,7 @@ nodes, in the first iteration itself the fast node would be at the end.
 - While the slow node would be at the middle, hence we would just return it.
 - For this Time Complexity O($n/2$), and Space Complexity O(1)
 
-### Contains Duplicate
+## Contains Duplicate
 - Again this problem leads to multiple solution, one being the following which uses a hash map.
 {% raw %}
 ```cpp
@@ -1182,7 +1183,7 @@ public:
 ```
 {% endraw %}
 
-### Maximum Depth of a binary tree.
+## Maximum Depth of a binary tree.
 - Again seeing that we have a binary tree, the problem leads itself well to a very simple recursive approach.
 {% raw %}
 ```cpp
@@ -1238,7 +1239,7 @@ troducing another loop.
 - One more thing, since now in this way we are also aware of the width of the tree, we can also find the max width of the tree.
 
 
-### Roman to Integer
+## Roman to Integer
 - The problem introduces an insight into how the data is behaving and we use that to our advantage.
 {% raw %}
 ```cpp
@@ -1342,7 +1343,7 @@ public:
 {% endraw %}
 
 
-### BackSpace String Compare
+## BackSpace String Compare
 - We can solve this in a more natural way if use the stack.
 {% raw %}
 ```cpp

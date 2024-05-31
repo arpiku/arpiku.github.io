@@ -2,8 +2,8 @@
 title: JavaScript 30 problems with solutions 
 author: arpiku 
 date: 2024-02-27 15:45:00 +0530
-categories: [Journal, Blog, Engineering, Opinion]
-tags: [Journal, Blog]
+categories: [JavaScript, LeetCode, Funtional Programming, Competitive Programming]
+tags: [LeetCode, JavaScript]
 pin: false 
 ---
 
@@ -249,6 +249,7 @@ var compose = function(funcs) {
  */
 ```
 - Following is the implementation of similar concept in C++
+
 {% raw %}
 ```cpp
 #include <iostream>
@@ -470,10 +471,9 @@ var timeLimit = function(fn, t) {
 {% endraw %}
 
 ## Cache with Time Limit
-
+- We just use the concepts learned and create and object to do our bidding.
 
 {% raw %}
-- We just use the concepts learned and create and object to do our bidding.
 ```js 
 var TimeLimitedCache = function() {
     this.memory= new Map();
@@ -521,7 +521,7 @@ TimeLimitedCache.prototype.count = function() {
  * timeLimitedCache.count() // 1
  */
 ```
-
+{% endraw %}
 
 ## Debounce 
 - Wait, didn't we already solve this too?
@@ -540,6 +540,7 @@ var debounce = function(fn, t = 1000) {
 - This list could have been better you know.
 
 ## Execute Asynchronous Functionsl Parallely
+
 {% raw %}
 ```js
 /**
