@@ -8,7 +8,7 @@ order: 4
 
 ![MyImg](/assets/img/Me.jpg)
 
-Here is the [resume]({{ site.baseurl }}/assets/resume.pdf)!
+Here is the [resume](/assets/Resume.pdf)!
 
 Born in the vibrant and beautiful land of India, I always found the magic of a remote control car just as mysterious as the one in Harry Potter, growing up I have realised that the Harry Potter world was always considerably behind us. 
 
