@@ -161,10 +161,7 @@ This finally gives us an interface to observe the data wirelessly, you can read 
 Remember to match the baud rate as baud rate basically represents the speed at which the devices are expected to communicate, a mismatches value will
 result in missed data.
 
-<video width="600" controls>
-  <source src="../assets/Arduino.MOV" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+[Video of module working](https://www.youtube.com/shorts/y5gUE-sbd94)
 
 
 ### The website and server side of things
